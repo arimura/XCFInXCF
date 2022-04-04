@@ -11,6 +11,8 @@
 		74CD14C027FAAFE00007C510 /* InnerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74CD14B527FAAFE00007C510 /* InnerFramework.framework */; };
 		74CD14C527FAAFE00007C510 /* InnerFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CD14C427FAAFE00007C510 /* InnerFrameworkTests.m */; };
 		74CD14C627FAAFE00007C510 /* InnerFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 74CD14B827FAAFE00007C510 /* InnerFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74CD14D127FAB02F0007C510 /* INFCreator.h in Headers */ = {isa = PBXBuildFile; fileRef = 74CD14CF27FAB02F0007C510 /* INFCreator.h */; };
+		74CD14D227FAB02F0007C510 /* INFCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CD14D027FAB02F0007C510 /* INFCreator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		74CD14B927FAAFE00007C510 /* InnerFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = InnerFramework.docc; sourceTree = "<group>"; };
 		74CD14BF27FAAFE00007C510 /* InnerFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InnerFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74CD14C427FAAFE00007C510 /* InnerFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InnerFrameworkTests.m; sourceTree = "<group>"; };
+		74CD14CF27FAB02F0007C510 /* INFCreator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = INFCreator.h; sourceTree = "<group>"; };
+		74CD14D027FAB02F0007C510 /* INFCreator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = INFCreator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				74CD14B827FAAFE00007C510 /* InnerFramework.h */,
+				74CD14CF27FAB02F0007C510 /* INFCreator.h */,
+				74CD14D027FAB02F0007C510 /* INFCreator.m */,
 				74CD14B927FAAFE00007C510 /* InnerFramework.docc */,
 			);
 			path = InnerFramework;
@@ -93,6 +99,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74CD14C627FAAFE00007C510 /* InnerFramework.h in Headers */,
+				74CD14D127FAB02F0007C510 /* INFCreator.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74CD14D227FAB02F0007C510 /* INFCreator.m in Sources */,
 				74CD14BA27FAAFE00007C510 /* InnerFramework.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

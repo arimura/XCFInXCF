@@ -1,0 +1,16 @@
+//
+//  INFCreator.h
+//  InnerFramework
+//
+//  Created by k-arimura on 2022/04/04.
+//
+
+#import <Foundation/Foundation.h>
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface INFCreator : NSObject
++ (NSString*)getHoge;
+@end
+
+NS_ASSUME_NONNULL_END
