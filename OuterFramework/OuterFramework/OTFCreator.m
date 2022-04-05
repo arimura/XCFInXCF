@@ -6,6 +6,7 @@
 //
 
 #import "OTFCreator.h"
+#import <InnerFramework/InnerFramework.h>
 
 @implementation OTFCreator
 + (NSString*)getHoge {
