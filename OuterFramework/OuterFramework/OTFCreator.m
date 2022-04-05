@@ -10,7 +10,7 @@
 
 @implementation OTFCreator
 + (NSString*)getHoge {
-    return @"hoge";
+    return [INFCreator getHoge];
 }
 
 @end

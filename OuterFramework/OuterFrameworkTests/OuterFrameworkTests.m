@@ -15,6 +15,6 @@
 @implementation OuterFrameworkTests
 
 - (void)testHoge {
-    XCTAssertEqualObjects([OTFCreator getHoge], @"hoge");
+    XCTAssertEqualObjects([OTFCreator getHoge], @"Hoge");
 }
 @end
