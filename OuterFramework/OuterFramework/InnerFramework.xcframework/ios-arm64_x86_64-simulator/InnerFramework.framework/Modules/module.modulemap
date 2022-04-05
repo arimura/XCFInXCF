@@ -1,6 +1,0 @@
-framework module InnerFramework {
-  umbrella header "InnerFramework.h"
-
-  export *
-  module * { export * }
-}

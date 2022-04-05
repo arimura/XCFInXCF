@@ -11,7 +11,7 @@
 		74CD14C027FAAFE00007C510 /* InnerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74CD14B527FAAFE00007C510 /* InnerFramework.framework */; };
 		74CD14C527FAAFE00007C510 /* InnerFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CD14C427FAAFE00007C510 /* InnerFrameworkTests.m */; };
 		74CD14C627FAAFE00007C510 /* InnerFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 74CD14B827FAAFE00007C510 /* InnerFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		74CD14D127FAB02F0007C510 /* INFCreator.h in Headers */ = {isa = PBXBuildFile; fileRef = 74CD14CF27FAB02F0007C510 /* INFCreator.h */; };
+		74CD14D127FAB02F0007C510 /* INFCreator.h in Headers */ = {isa = PBXBuildFile; fileRef = 74CD14CF27FAB02F0007C510 /* INFCreator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		74CD14D227FAB02F0007C510 /* INFCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CD14D027FAB02F0007C510 /* INFCreator.m */; };
 /* End PBXBuildFile section */
 

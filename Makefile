@@ -1,4 +1,4 @@
-archives/Inner.xcframework:
+archives/InnerFramework.xcframework:
 	xcodebuild archive \
 	 -project InnerFramework/InnerFramework.xcodeproj \
 	 -scheme InnerFramework \
@@ -16,7 +16,10 @@ archives/Inner.xcframework:
 	xcodebuild -create-xcframework \
 	  -framework archives/Inner-iOS.xcarchive/Products/Library/Frameworks/InnerFramework.framework \
 	  -framework archives/Inner-iOS-Simulator.xcarchive/Products/Library/Frameworks/InnerFramework.framework \
-	  -output archives/Inner.xcframework
+	  -output archives/InnerFramework.xcframework
+
+install-inner: archives/InnerFramework.xcframework
+	mv archives/InnerFramework.xcframework OuterFramework/OuterFramework/
 
 clean:
 	rm -rf archives/*

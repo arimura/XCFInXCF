@@ -13,7 +13,7 @@
 		74CD14EE27FAEE1A0007C510 /* OuterFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 74CD14E027FAEE1A0007C510 /* OuterFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		74CD14F927FAEE500007C510 /* OTFCreator.h in Headers */ = {isa = PBXBuildFile; fileRef = 74CD14F727FAEE500007C510 /* OTFCreator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		74CD14FA27FAEE500007C510 /* OTFCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CD14F827FAEE500007C510 /* OTFCreator.m */; };
-		74CD150327FC07D90007C510 /* InnerFramework.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74CD150227FC07D90007C510 /* InnerFramework.xcframework */; };
+		74CD150727FC0C880007C510 /* InnerFramework.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74CD150627FC0C880007C510 /* InnerFramework.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +34,7 @@
 		74CD14EC27FAEE1A0007C510 /* OuterFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OuterFrameworkTests.m; sourceTree = "<group>"; };
 		74CD14F727FAEE500007C510 /* OTFCreator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTFCreator.h; sourceTree = "<group>"; };
 		74CD14F827FAEE500007C510 /* OTFCreator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OTFCreator.m; sourceTree = "<group>"; };
-		74CD150227FC07D90007C510 /* InnerFramework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = InnerFramework.xcframework; sourceTree = "<group>"; };
+		74CD150627FC0C880007C510 /* InnerFramework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = InnerFramework.xcframework; path = ../../archives/InnerFramework.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74CD150327FC07D90007C510 /* InnerFramework.xcframework in Frameworks */,
+				74CD150727FC0C880007C510 /* InnerFramework.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +78,7 @@
 		74CD14DF27FAEE1A0007C510 /* OuterFramework */ = {
 			isa = PBXGroup;
 			children = (
-				74CD150227FC07D90007C510 /* InnerFramework.xcframework */,
+				74CD150627FC0C880007C510 /* InnerFramework.xcframework */,
 				74CD14E027FAEE1A0007C510 /* OuterFramework.h */,
 				74CD14F727FAEE500007C510 /* OTFCreator.h */,
 				74CD14F827FAEE500007C510 /* OTFCreator.m */,
