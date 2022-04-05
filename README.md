@@ -1,0 +1,1 @@
+To investigate how to distribute xcframework using other xcframework
