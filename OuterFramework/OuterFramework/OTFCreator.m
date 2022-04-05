@@ -8,5 +8,8 @@
 #import "OTFCreator.h"
 
 @implementation OTFCreator
++ (NSString*)getHoge {
+    return @"hoge";
+}
 
 @end
