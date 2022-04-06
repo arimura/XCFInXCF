@@ -18,7 +18,7 @@ archives/InnerFramework.xcframework:
 	  -framework archives/Inner-iOS-Simulator.xcarchive/Products/Library/Frameworks/InnerFramework.framework \
 	  -output archives/InnerFramework.xcframework
 
-archives/OuterFramework.xcframework:
+archives/OuterFramework.xcframework: archives/InnerFramework.xcframework
 	xcodebuild archive \
 	 -project OuterFramework/OuterFramework.xcodeproj \
 	 -scheme OuterFramework \
