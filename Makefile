@@ -38,5 +38,15 @@ archives/OuterFramework.xcframework: archives/InnerFramework.xcframework
 	  -framework archives/Outer-iOS-Simulator.xcarchive/Products/Library/Frameworks/OuterFramework.framework \
 	  -output archives/OuterFramework.xcframework
 
+archives/combined/OuterFramework.xcframework: archives/OuterFramework.xcframework
+	mkdir archives/combined
+	cp -r archives/OuterFramework.xcframework archives/combined/OuterFramework.xcframework
+	rm archives/combined/OuterFramework.xcframework/{ios-arm64,ios-arm64_x86_64-simulator}/OuterFramework.framework/OuterFramework
+	libtool -static -o archives/combined/OuterFramework.xcframework/ios-arm64/OuterFramework.framework/OuterFramework \
+	  archives/InnerFramework.xcframework/ios-arm64/InnerFramework.framework/InnerFramework \
+	  archives/OuterFramework.xcframework/ios-arm64/OuterFramework.framework/OuterFramework
+	libtool -static -o archives/combined/OuterFramework.xcframework/ios-arm64_x86_64-simulator/OuterFramework.framework/OuterFramework \
+	  archives/InnerFramework.xcframework/ios-arm64_x86_64-simulator/InnerFramework.framework/InnerFramework \
+	  archives/OuterFramework.xcframework/ios-arm64_x86_64-simulator/OuterFramework.framework/OuterFramework
 clean:
 	rm -rf archives/*

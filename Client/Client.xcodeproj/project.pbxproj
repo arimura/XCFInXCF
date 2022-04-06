@@ -17,7 +17,7 @@
 		74CD153127FC12890007C510 /* ClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CD153027FC12890007C510 /* ClientTests.m */; };
 		74CD153B27FC12890007C510 /* ClientUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CD153A27FC12890007C510 /* ClientUITests.m */; };
 		74CD153D27FC12890007C510 /* ClientUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CD153C27FC12890007C510 /* ClientUITestsLaunchTests.m */; };
-		74CD154A27FC12A30007C510 /* OuterFramework.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74CD154927FC12A30007C510 /* OuterFramework.xcframework */; };
+		74CD154C27FD2FAE0007C510 /* OuterFramework.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74CD154B27FD2FAE0007C510 /* OuterFramework.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +55,7 @@
 		74CD153627FC12890007C510 /* ClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74CD153A27FC12890007C510 /* ClientUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClientUITests.m; sourceTree = "<group>"; };
 		74CD153C27FC12890007C510 /* ClientUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClientUITestsLaunchTests.m; sourceTree = "<group>"; };
-		74CD154927FC12A30007C510 /* OuterFramework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = OuterFramework.xcframework; path = ../../archives/OuterFramework.xcframework; sourceTree = "<group>"; };
+		74CD154B27FD2FAE0007C510 /* OuterFramework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = OuterFramework.xcframework; path = ../../archives/combined/OuterFramework.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74CD154A27FC12A30007C510 /* OuterFramework.xcframework in Frameworks */,
+				74CD154C27FD2FAE0007C510 /* OuterFramework.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,7 +107,7 @@
 		74CD151327FC12860007C510 /* Client */ = {
 			isa = PBXGroup;
 			children = (
-				74CD154927FC12A30007C510 /* OuterFramework.xcframework */,
+				74CD154B27FD2FAE0007C510 /* OuterFramework.xcframework */,
 				74CD151427FC12860007C510 /* AppDelegate.h */,
 				74CD151527FC12860007C510 /* AppDelegate.m */,
 				74CD151727FC12860007C510 /* SceneDelegate.h */,
